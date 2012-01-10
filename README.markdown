@@ -30,9 +30,9 @@
 >2.  The database schema and format which is used by this program is MySQL.  
 >This program uses Perl-DBI, Perl-SQL, Perl-MySQL, Perl and BioPerl modules.  
 >The hall marks of the program are that-  
-> >i) Validation of data enormously helps in exceptionally very high efficiency and  
+>   i)   Validation of data enormously helps in exceptionally very high efficiency and  
 >performance of the code in memory usage and speed.  
-> >ii)  It avoids thread crowding and burdening database server.  
+>   ii)  It avoids thread crowding and burdening database server.  
 >
 >3.  This program has a small main program, while majority of the work is modeled  
 >using subroutines.  
