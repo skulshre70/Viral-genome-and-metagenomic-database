@@ -1,4 +1,14 @@
 #!/usr/local/env perl
+#####################################################################################################################
+#This program populates a database that has already been desigened and created by another script.  The program      #
+#knows about the database, it accessses the database by asking permitted user's login and password.  The script     #
+#knows the sorce of data, does data abstraction, mining, processing, modification, transporation and laods the      #
+#crossed checked data to exact tables and location in the database.  The program constantly verifies that the       #
+#correct and right data is entering the database at in the right table and in right column.  The program extracts   #
+# gene and contif sequences from different public data base, cross checks the validity of protein sequence in       #
+#6 frames, and the translated sequences from ORFs are validated with the NCBI's protein database before transporting#
+#data into the database.                                                                                            #
+#####################################################################################################################
 
 use lib '/usr/local/projects/GOSII/skulshre/bioperl-1.4';
 use Bio::Perl;
